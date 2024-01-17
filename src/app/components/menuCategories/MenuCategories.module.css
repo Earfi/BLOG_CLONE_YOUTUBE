@@ -1,0 +1,44 @@
+.categoryList{
+    margin-top: 35px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.categoryItem{
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.categoryItem.style{
+    background-color: rgb(40, 253, 37);
+}
+
+.categoryItem.fashion{
+    background-color: aqua;
+}
+
+.categoryItem.food{
+    background-color: rgb(255, 0, 0);
+}
+
+.categoryItem.travel{
+    background-color: rgb(34, 0, 255);
+}
+
+.categoryItem.culture{
+    background-color: rgb(255, 0, 217);
+}
+
+.categoryItem.coding{
+    background-color: rgb(255, 170, 0);
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        display: none;
+    }
+}
+
